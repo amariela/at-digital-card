@@ -1,10 +1,13 @@
 import { Button } from "react-bootstrap";
+import { Link } from "react-router";
 
 export default function CustomButton({ linkTo, btnText, btnId, btnVariant, btnStyle }) {
 
     return (
-        <Button href={linkTo} variant={btnVariant} id={btnId} style={btnStyle}>
-            {btnText}
-        </Button>
+        <Link to={linkTo}>
+            <Button variant={btnVariant} id={btnId} style={btnStyle}>
+                {btnText}
+            </Button>
+        </Link>
     )
 }
