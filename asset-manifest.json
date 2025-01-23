@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ela-codes/at-digital-card/static/css/main.036c9cc0.css",
-    "main.js": "/ela-codes/at-digital-card/static/js/main.9f4dbd61.js",
-    "index.html": "/ela-codes/at-digital-card/index.html",
-    "main.036c9cc0.css.map": "/ela-codes/at-digital-card/static/css/main.036c9cc0.css.map",
-    "main.9f4dbd61.js.map": "/ela-codes/at-digital-card/static/js/main.9f4dbd61.js.map"
+    "main.css": "/static/css/main.036c9cc0.css",
+    "main.js": "/static/js/main.9f4dbd61.js",
+    "index.html": "/index.html",
+    "main.036c9cc0.css.map": "/static/css/main.036c9cc0.css.map",
+    "main.9f4dbd61.js.map": "/static/js/main.9f4dbd61.js.map"
   },
   "entrypoints": [
     "static/css/main.036c9cc0.css",
