@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/at-digital-card/static/css/main.036c9cc0.css",
-    "main.js": "/at-digital-card/static/js/main.0f5e6005.js",
+    "main.css": "/at-digital-card/static/css/main.baaae233.css",
+    "main.js": "/at-digital-card/static/js/main.fa9bb2be.js",
     "index.html": "/at-digital-card/index.html",
-    "main.036c9cc0.css.map": "/at-digital-card/static/css/main.036c9cc0.css.map",
-    "main.0f5e6005.js.map": "/at-digital-card/static/js/main.0f5e6005.js.map"
+    "main.baaae233.css.map": "/at-digital-card/static/css/main.baaae233.css.map",
+    "main.fa9bb2be.js.map": "/at-digital-card/static/js/main.fa9bb2be.js.map"
   },
   "entrypoints": [
-    "static/css/main.036c9cc0.css",
-    "static/js/main.0f5e6005.js"
+    "static/css/main.baaae233.css",
+    "static/js/main.fa9bb2be.js"
   ]
 }
