@@ -12,16 +12,16 @@ export default function About() {
         >
             <Container>
                 <Row className="flex-column justify-content-center align-items-center">
-                    <Col>
-                        <motion.h1 variants={itemVariants} id="titleName">
+                    <Container>
+                        <motion.h1 variants={itemVariants} id="titleName" className="py-3">
                             Meet {myInfo.firstName}.
                         </motion.h1>
-                    </Col>
-                    <Col lg={6}>
+                    </Container>
+                    <Container lg={6}>
                         <motion.p variants={itemVariants}>
                             I'm a full stack developer with a love for bringing ideas to life through code.
                         </motion.p>
-                        <motion.p variants={itemVariants}>
+                        <motion.p variants={itemVariants} className="pb-3">
                             I've always been passionate about continuous learning and I enjoy exploring new technologies and integrating them into my projects. Really, my mission is to contribute to impactful projects while growing professionally. When I'm not coding, you'll find me <span className="text-decoration-line-through text-muted">sleeping</span> diving into new games, reading books, filming and editing videos, or discovering unique coffee shops.
                         </motion.p>
                         <Container className="pb-5">
@@ -89,7 +89,7 @@ export default function About() {
                                 />
                             </motion.div>
                         </Container>
-                    </Col>
+                    </Container>
                 </Row>
             </Container>
         </motion.div>

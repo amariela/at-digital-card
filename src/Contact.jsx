@@ -40,7 +40,7 @@ export default function Contact() {
                         >
                             <ListGroup.Item>
                                 <i className="bi bi-linkedin pe-2"></i>
-                                <a href={myInfo.linkedIn} target="_blank" rel="noopener noreferrer">
+                                <a href={myInfo.linkedIn} target="_blank" rel="noopener noreferrer" className="link-offset-2">
                                     <span className="align-middle">LinkedIn Profile</span>
                                 </a>
                             </ListGroup.Item>
@@ -53,7 +53,7 @@ export default function Contact() {
                         >
                             <ListGroup.Item>
                                 <i className="bi bi-github pe-2"></i>
-                                <a href={myInfo.gitHub} target="_blank" rel="noopener noreferrer">
+                                <a href={myInfo.gitHub} target="_blank" rel="noopener noreferrer" className="link-offset-2">
                                     <span className="align-middle">GitHub Profile</span>
                                 </a>
                             </ListGroup.Item>

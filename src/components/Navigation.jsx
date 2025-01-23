@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
@@ -12,7 +11,7 @@ export default function Navigation() {
       id="topNav" 
       collapseOnSelect 
       expand="sm" 
-      className=""
+      className="fs-5 pb-4"
       expanded={expanded}
       onToggle={(expanded) => setExpanded(expanded)}
     >

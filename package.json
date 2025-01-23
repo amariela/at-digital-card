@@ -1,6 +1,7 @@
 {
     "name": "react",
     "version": "1.0.0",
+    "homepage": "https://ela-codes.github.io/at-digital-card/",
     "description": "",
     "keywords": [],
     "main": "src/index.js",
