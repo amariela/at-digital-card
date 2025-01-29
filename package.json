@@ -1,7 +1,6 @@
 {
     "name": "react",
     "version": "1.0.0",
-    "homepage": "https://amariela.github.io/at-digital-card/",
     "description": "",
     "keywords": [],
     "main": "src/index.js",
@@ -19,12 +18,9 @@
     "devDependencies": {
         "@types/react": "19.0.0",
         "@types/react-dom": "19.0.0",
-        "gh-pages": "^6.3.0",
         "loader-utils": "3.2.1"
     },
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
