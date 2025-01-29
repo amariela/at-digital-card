@@ -1,0 +1,31 @@
+{
+    "projects": [
+        {
+            "title": "Vibin.",
+            "image": "./assets/vibin_img.png",
+            "github": "https://github.com/ela-codes/book-reviews-cms",
+            "linkedin": "https://www.linkedin.com/posts/aenateodocio_what-if-you-could-discover-new-songs-based-activity-7283218103629455360-mogF?utm_source=share&utm_medium=member_desktop",
+            "demo": "https://imvibin.vercel.app",
+            "subtitle": "Spring Boot, React, PostgreSQL, Bootstrap",
+            "description": "A web app that analyzes user input using NLP and recommends Spotify songs based on their mood, integrating with the Spotify's Auth Flow and Web API for real-time suggestions."
+        },
+        {
+            "title": "BookReviews",
+            "image": "./assets/cms_img.jpg",
+            "github": "https://github.com/ela-codes/vibin",
+            "linkedin": "https://www.linkedin.com/posts/aenateodocio_i-thought-it-might-be-nice-to-make-a-short-activity-7267709946111098880-ypbU?utm_source=share&utm_medium=member_desktop",
+            "demo": null,
+            "subtitle": "PHP, MySQL, HTML, JavaScript, Bootstrap",
+            "description": "A dynamic Content Management System (CMS) designed to serve as a centralized platform for book enthusiasts. Features user management and authentication, administrative controls, visitor access, and book data management."
+        },
+        {
+            "title": "Cozy Weather",
+            "image": "./assets/cozyweather_img.png",
+            "github": "https://github.com/ela-codes/weather-app",
+            "linkedin": null,
+            "demo": "https://ela-codes.github.io/weather-app/",
+            "subtitle": "HTML, CSS, Javascript, Weather API",
+            "description": "Search for and access today's weather at any location. Enjoy the dynamic background that updates depending on time of day. Inspired by Studio Ghibli."
+        }
+    ]
+}

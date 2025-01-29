@@ -17,8 +17,8 @@ export default function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
-                    {/* <Route path="/experience" element={<Experience />} />
-                <Route path="/project" element={<Project />} /> */}
+                    {/* <Route path="/experience" element={<Experience />} />*/}
+                    <Route path="/project" element={<Project />} /> 
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
             </Container>
