@@ -10,7 +10,7 @@ export default function Project() {
             initial="hidden"
             animate="visible"
         >
-            <Container className="py-4">
+            <Container className="pb-5">
                 <motion.h1 variants={itemVariants} id="titleName" className="pb-4">
                     Featured Projects.
                 </motion.h1>
@@ -36,20 +36,20 @@ export default function Project() {
                                                 href={project.github} 
                                                 target="_blank" 
                                                 rel="noopener noreferrer" 
-                                                className="btn btn-dark me-2 py-2"
+                                                className="btn btn-dark me-2 fw-bold"
                                             >
-                                                <i className="bi bi-github me-2 h4"></i>
-                                                Code
+                                                <i className="bi bi-github me-2 h5"></i>
+                                                <span className="align-middle">Code</span>
                                             </a>
                                             {project.demo && (
                                                 <a 
                                                     href={project.demo} 
                                                     target="_blank" 
                                                     rel="noopener noreferrer" 
-                                                    className="btn btn-outline-dark me-2"
+                                                    className="btn btn-outline-dark me-2 fw-bold"
                                                 >
-                                                    <i className="bi bi-box-arrow-up-right me-2 h4"></i>
-                                                    Live
+                                                    <i className="bi bi-display me-2 h5"></i>
+                                                    <span className="align-middle">Demo</span>
                                                 </a>
                                             )}
                                             {project.linkedin && (
@@ -57,10 +57,10 @@ export default function Project() {
                                                     href={project.linkedin} 
                                                     target="_blank" 
                                                     rel="noopener noreferrer" 
-                                                    className="btn btn-outline-dark me-2"
+                                                    className="btn btn-outline-dark me-2 fw-bold"
                                                 >
-                                                    <i className="bi bi-linkedin me-2 h4"></i>
-                                                    Video
+                                                    <i className="bi bi-linkedin me-2 h5"></i>
+                                                    <span className="align-middle">Video</span>
                                                 </a>
                                             )}
                                         </div>
