@@ -60,7 +60,7 @@ export default function Home() {
                             whileTap={{ scale: 0.95 }}
                             role="button"
                             tabIndex="0"
-                            href="./assets/AT_Resume_Jan2025.pdf"
+                            href="./assets/Aena-Teodocio_Resume.pdf"
                             id="downloadBtn"
                             className="btn btn-outline-dark rounded m-2"
                             style={homeBtnStyle}
