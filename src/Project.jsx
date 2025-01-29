@@ -16,8 +16,8 @@ export default function Project() {
                 </motion.h1>
                 <Row className="justify-content-center g-5">
                     {projectsData.projects.map((project, index) => (
-                        <Col key={index} xs={12} md={6} lg={6} className="d-flex align-items-stretch">
-                            <motion.div variants={itemVariants} className="w-100">
+                        <Col key={index} xs={12} md={10} lg={6} className="d-flex align-items-stretch">
+                            <motion.div variants={itemVariants}>
                                 <Card className="h-100 shadow-sm">
                                     <Card.Img 
                                         variant="top" 
@@ -30,13 +30,13 @@ export default function Project() {
                                         <Card.Subtitle className="mb-3 fw-bold">
                                             {project.subtitle}
                                         </Card.Subtitle>
-                                        <Card.Text className="fw-normal text-muted">{project.description}</Card.Text>
-                                        <div className="mt-auto pt-3">
+                                        <Card.Text className="fw-normal text-muted fs-6">{project.description}</Card.Text>
+                                        <div className="mt-auto pt-2">
                                             <a 
                                                 href={project.github} 
                                                 target="_blank" 
                                                 rel="noopener noreferrer" 
-                                                className="btn btn-dark me-2 fw-bold"
+                                                className="btn btn-dark me-2 my-1 fw-bold"
                                             >
                                                 <i className="bi bi-github me-2 h5"></i>
                                                 <span className="align-middle">Code</span>
@@ -46,7 +46,7 @@ export default function Project() {
                                                     href={project.demo} 
                                                     target="_blank" 
                                                     rel="noopener noreferrer" 
-                                                    className="btn btn-outline-dark me-2 fw-bold"
+                                                    className="btn btn-outline-dark me-2 my-1 fw-bold"
                                                 >
                                                     <i className="bi bi-display me-2 h5"></i>
                                                     <span className="align-middle">Demo</span>
@@ -57,7 +57,7 @@ export default function Project() {
                                                     href={project.linkedin} 
                                                     target="_blank" 
                                                     rel="noopener noreferrer" 
-                                                    className="btn btn-outline-dark me-2 fw-bold"
+                                                    className="btn btn-outline-dark me-2 my-1 fw-bold"
                                                 >
                                                     <i className="bi bi-linkedin me-2 h5"></i>
                                                     <span className="align-middle">Video</span>

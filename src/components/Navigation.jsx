@@ -33,9 +33,6 @@ export default function Navigation() {
               <i className="bi bi-upc-scan h4"></i>
             </Button>
           </Nav>
-
-
-
         </Navbar.Collapse>
       </Navbar>
       
